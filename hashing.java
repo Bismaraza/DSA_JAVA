@@ -13,8 +13,13 @@ public class hashing {
         hm.put("Poland", 10);
 
         // Iterate
+        //hm.entryset
         Set<String> keys = hm.keySet();
         System.out.println(keys);
+
+        for (String key : keys) {
+            System.out.println("Key = " + key + ", Value= " +hm.get(key));
+        }
 
     }
 
