@@ -51,9 +51,11 @@ public class pair_sum {
         return new int[]{-1,-1};
     }
     public static void main(String[] args) {
-       int arr[] = {2,7,11,15};
+        int arr[] = {2,7,11,15};
         int target = 26;
-       int [] ans = mostOptimized(arr, target);
-System.out.println(ans[0] + " " + ans[1]);
+        int [] ans = mostOptimized(arr, target);
+        System.out.println(ans[0] + " " + ans[1]);
+
+
     }
 }
