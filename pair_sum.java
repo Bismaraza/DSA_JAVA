@@ -37,7 +37,7 @@ public class pair_sum {
     public static int[]  mostOptimized(int arr[], int target){
         HashMap <Integer, Integer> m = new HashMap<>();
        int ans;
-       int n = arr.length;
+       int n = arr.length;       
 
        for(int i=0; i < n; i++){
         int first = arr[i];
