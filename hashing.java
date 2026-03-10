@@ -11,6 +11,7 @@ public class hashing {
         hm.put("VS", 5);
         hm.put("Nepal", 2);
         hm.put("Poland", 10);
+        
 
         // Iterate
         //hm.entryset

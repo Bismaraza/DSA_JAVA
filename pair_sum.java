@@ -42,6 +42,7 @@ public class pair_sum {
        for(int i=0; i < n; i++){
         int first = arr[i];
         int second = target - first;
+        int third = Integer.MIN_VALUE(first, second);
 
         if(m.containsKey(second)){
             return new int[]{m.get(second), i};
