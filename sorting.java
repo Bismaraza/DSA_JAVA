@@ -48,7 +48,7 @@ public class sorting {
     }
     public static void main(String[] args) {
         int arr[]={6,1,6,3,5};
-        int n = arr.length;
+        int n = arr.length;  
 
         selectionSort(arr, n);
         print(arr, n);
